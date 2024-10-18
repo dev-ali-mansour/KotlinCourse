@@ -1,4 +1,9 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.ui.order
+
+import org.example.kotlin_course.oop.project.ecommerce.data.order.CartImpl
+import org.example.kotlin_course.oop.project.ecommerce.data.order.OrderImpl
+import org.example.kotlin_course.oop.project.ecommerce.data.order.products
+import org.example.kotlin_course.oop.project.ecommerce.showMainScreen
 
 fun showProducts() {
 

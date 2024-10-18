@@ -1,4 +1,7 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.ui.order
+
+import org.example.kotlin_course.oop.project.ecommerce.model.CreditCard
+import org.example.kotlin_course.oop.project.ecommerce.data.order.Order
 
 fun checkout(order: Order) {
     println("#############")

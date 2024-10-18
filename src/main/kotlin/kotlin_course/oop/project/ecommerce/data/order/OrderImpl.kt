@@ -1,6 +1,8 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.data.order
 
-class OrderImpl(private val cart: Cart):Order {
+import org.example.kotlin_course.oop.project.ecommerce.model.PaymentMethod
+
+class OrderImpl(private val cart: Cart): Order {
 
     override fun placeOrder() {
         val total = cart.getTotalPrice()

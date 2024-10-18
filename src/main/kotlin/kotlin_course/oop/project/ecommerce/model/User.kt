@@ -1,4 +1,4 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.model
 
 data class User(
     val firstName: String,

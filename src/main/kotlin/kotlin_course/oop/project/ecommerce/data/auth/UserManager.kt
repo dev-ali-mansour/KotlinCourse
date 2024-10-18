@@ -1,4 +1,6 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.data.auth
+
+import org.example.kotlin_course.oop.project.ecommerce.model.User
 
 class AuthenticationException(override val message: String) : Exception()
 

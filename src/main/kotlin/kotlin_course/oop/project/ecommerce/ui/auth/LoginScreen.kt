@@ -1,4 +1,8 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.ui.authentication
+
+import org.example.kotlin_course.oop.project.ecommerce.data.auth.UserManager
+import org.example.kotlin_course.oop.project.ecommerce.showAuthMenu
+import org.example.kotlin_course.oop.project.ecommerce.showMainMenu
 
 
 fun login() {
@@ -25,7 +29,7 @@ fun login() {
             }
 
             val userManager = UserManager
-            userManager.login(username = username, password = password)
+            UserManager.login(username = username, password = password)
             repeat = false
             showMainMenu(userManager)
         }.onFailure { error ->

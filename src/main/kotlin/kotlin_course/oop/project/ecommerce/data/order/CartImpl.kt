@@ -1,4 +1,6 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package org.example.kotlin_course.oop.project.ecommerce.data.order
+
+import org.example.kotlin_course.oop.project.ecommerce.model.Product
 
 val products = listOf(
     Product(id = 1, name = "Laptop", price = 15000.0),
