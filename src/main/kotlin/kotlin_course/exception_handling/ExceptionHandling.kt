@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.exception_handling
 
 import java.io.IOException
 

@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.oop
 
 // Abstract Class
 abstract class MyAnimal{
@@ -10,7 +10,7 @@ abstract class MyAnimal{
 }
 
 // Concrete Class
-class MyDog:MyAnimal(){
+class MyDog: MyAnimal(){
     override fun makeSound(){
         println("Bark!")
     }
@@ -21,7 +21,7 @@ interface Drivable{
     fun drive()
 }
 
-class MyCar:Drivable{
+class MyCar: Drivable {
     override fun drive(){
         println("The car is driving")
     }
@@ -31,7 +31,7 @@ class MyCar:Drivable{
     }
 }
 
-class Bicycle:Drivable{
+class Bicycle: Drivable {
     override fun drive() {
         println("The bicycle is riding")
     }

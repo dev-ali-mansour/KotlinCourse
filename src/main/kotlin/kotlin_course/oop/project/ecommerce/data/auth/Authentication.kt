@@ -1,4 +1,4 @@
-package org.example.kotlin_course.oop.project.ecommerce.data.auth
+package kotlin_course.oop.project.ecommerce.data.auth
 
 interface Authentication {
 

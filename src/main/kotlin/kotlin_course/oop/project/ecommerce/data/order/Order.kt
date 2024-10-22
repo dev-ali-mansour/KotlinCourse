@@ -1,6 +1,6 @@
-package org.example.kotlin_course.oop.project.ecommerce.data.order
+package kotlin_course.oop.project.ecommerce.data.order
 
-import org.example.kotlin_course.oop.project.ecommerce.model.PaymentMethod
+import kotlin_course.oop.project.ecommerce.model.PaymentMethod
 
 interface Order {
 

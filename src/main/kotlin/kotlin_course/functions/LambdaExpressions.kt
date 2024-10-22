@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.functions
 
 fun main() {
     val square = { num: Int -> num * num }

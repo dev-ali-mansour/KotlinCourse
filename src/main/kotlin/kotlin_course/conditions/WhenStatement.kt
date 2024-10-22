@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.conditions
 
 import java.util.Scanner
 

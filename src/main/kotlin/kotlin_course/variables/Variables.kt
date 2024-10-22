@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.variables
 
 fun main() {
     var firstName:String  = "Ahmed"

@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.oop
 
 object DatabaseConnection{
     init {
@@ -43,7 +43,7 @@ fun main() {
 
     println("Total created books: ${Book.getBookCount()}")
 
-    val buttonClickListener= object:ClickListener{
+    val buttonClickListener= object: ClickListener {
         override fun onClick() {
             println("Button clicked")
         }

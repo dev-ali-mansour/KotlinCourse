@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.loops
 
 fun main() {
     var count = 1

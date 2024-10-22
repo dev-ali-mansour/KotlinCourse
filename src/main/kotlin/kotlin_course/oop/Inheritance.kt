@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.oop
 
 open class Animal{
     var name: String = "Unknown"
@@ -12,7 +12,7 @@ open class Animal{
     }
 }
 
-class Dog:Animal(){
+class Dog: Animal(){
     fun bark(){
         println("Dog is barking")
     }

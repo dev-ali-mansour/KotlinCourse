@@ -1,6 +1,6 @@
-package org.example.kotlin_course.oop.project.ecommerce.ui.authentication
+package kotlin_course.oop.project.ecommerce.ui.authentication
 
-import org.example.kotlin_course.oop.project.ecommerce.data.auth.UserManager
+import kotlin_course.oop.project.ecommerce.data.auth.UserManager
 
 
 fun register() {

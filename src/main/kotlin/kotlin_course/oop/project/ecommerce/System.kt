@@ -1,4 +1,4 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package kotlin_course.oop.project.ecommerce
 
 fun main() {
     println("######################")

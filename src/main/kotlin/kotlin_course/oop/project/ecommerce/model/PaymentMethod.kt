@@ -1,4 +1,4 @@
-package org.example.kotlin_course.oop.project.ecommerce.model
+package kotlin_course.oop.project.ecommerce.model
 
 sealed class PaymentMethod
 

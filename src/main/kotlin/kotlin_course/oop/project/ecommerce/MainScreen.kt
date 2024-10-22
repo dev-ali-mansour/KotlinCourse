@@ -1,9 +1,9 @@
-package org.example.kotlin_course.oop.project.ecommerce
+package kotlin_course.oop.project.ecommerce
 
-import org.example.kotlin_course.oop.project.ecommerce.data.auth.UserManager
-import org.example.kotlin_course.oop.project.ecommerce.ui.authentication.login
-import org.example.kotlin_course.oop.project.ecommerce.ui.authentication.register
-import org.example.kotlin_course.oop.project.ecommerce.ui.order.showProducts
+import kotlin_course.oop.project.ecommerce.data.auth.UserManager
+import kotlin_course.oop.project.ecommerce.ui.authentication.login
+import kotlin_course.oop.project.ecommerce.ui.authentication.register
+import kotlin_course.oop.project.ecommerce.ui.order.showProducts
 import kotlin.system.exitProcess
 
 fun showMainScreen() {

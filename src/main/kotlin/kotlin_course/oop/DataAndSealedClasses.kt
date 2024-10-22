@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.oop
 
 data class User2(val name: String, val age: Int)
 

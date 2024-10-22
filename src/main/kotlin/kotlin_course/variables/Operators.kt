@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.variables
 
 fun main() {
     val x = 10 + 5

@@ -1,4 +1,4 @@
-package org.example
+package kotlin_course.oop
 
 open class Appliance(val brand:String){
     fun turnOn(){
@@ -10,14 +10,14 @@ open class Appliance(val brand:String){
     }
 }
 
-class WashingMachine(brand: String,val capacity:Int):Appliance(brand){
+class WashingMachine(brand: String,val capacity:Int): Appliance(brand){
     fun startWash(){
         println("$brand washing machine with $capacity kg is starting washing cycle")
         turnOff()
     }
 }
 
-class Microwave(brand: String,val power:Int):Appliance(brand){
+class Microwave(brand: String,val power:Int): Appliance(brand){
     fun startHeating(){
         println("$brand Microwave with $power watt is heating food")
     }
@@ -29,7 +29,7 @@ class Keyboard(val type:String){
     }
 }
 
-class Computer(brand: String,val keyboard:Keyboard){
+class Computer(brand: String,val keyboard: Keyboard){
     fun typeText(text:String){
         println("Start typing on ${keyboard.type} keyboard")
         text.forEach { keyboard.pressKey(it.toString()) }
@@ -45,7 +45,7 @@ fun main() {
     microwave.turnOn()
     microwave.startHeating()
 
-    val keyboard=Keyboard(type = "Mechanic")
-    val computer=Computer(brand = "Dell", keyboard=keyboard)
+    val keyboard= Keyboard(type = "Mechanic")
+    val computer= Computer(brand = "Dell", keyboard=keyboard)
     computer.typeText("Hello")
 }
