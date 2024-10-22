@@ -1,4 +1,4 @@
-package kotlin_course.oop
+package kotlin_course.oop.principles
 
 class BankAccount {
     private var balance: Double = 0.0

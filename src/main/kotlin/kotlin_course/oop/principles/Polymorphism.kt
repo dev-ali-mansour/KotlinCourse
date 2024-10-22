@@ -1,4 +1,4 @@
-package kotlin_course.oop
+package kotlin_course.oop.principles
 
 class Calculator {
     fun add(a: Int, b: Int): Int {
