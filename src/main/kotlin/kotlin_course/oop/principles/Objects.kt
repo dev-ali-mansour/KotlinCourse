@@ -1,4 +1,4 @@
-package kotlin_course.oop
+package kotlin_course.oop.principles
 
 /*class Car {
     var brand: String = ""

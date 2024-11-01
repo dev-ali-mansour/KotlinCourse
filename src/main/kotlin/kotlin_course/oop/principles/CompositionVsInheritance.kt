@@ -1,4 +1,4 @@
-package kotlin_course.oop
+package kotlin_course.oop.principles
 
 open class Appliance(val brand:String){
     fun turnOn(){
